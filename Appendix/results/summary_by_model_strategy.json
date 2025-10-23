@@ -1,0 +1,74 @@
+{
+  "mistralai/Mistral-7B-Instruct-v0.2|cot": {
+    "attempts": 50,
+    "pass@1": 0.42000000000000004,
+    "pass@5": 0.943950707017312,
+    "pass@10": 0.9980500907716365
+  },
+  "mistralai/Mistral-7B-Instruct-v0.2|scot": {
+    "attempts": 50,
+    "pass@1": 0.42000000000000004,
+    "pass@5": 0.943950707017312,
+    "pass@10": 0.9980500907716365
+  },
+  "mistralai/Mistral-7B-Instruct-v0.2|self_planning": {
+    "attempts": 50,
+    "pass@1": 0.36,
+    "pass@5": 0.9049557288225188,
+    "pass@10": 0.9937197728748812
+  },
+  "mistralai/Mistral-7B-Instruct-v0.2|self_debugging": {
+    "attempts": 50,
+    "pass@1": 0.6,
+    "pass@5": 0.9926825124129207,
+    "pass@10": 0.9999820141163487
+  },
+  "mistralai/Mistral-7B-Instruct-v0.2|self_edit": {
+    "attempts": 50,
+    "pass@1": 0.38,
+    "pass@5": 0.9198063961940003,
+    "pass@10": 0.9956823438514808
+  },
+  "mistralai/Mistral-7B-Instruct-v0.2|self_repair-R2": {
+    "attempts": 50,
+    "pass@1": 0.48,
+    "pass@5": 0.9689535388623535,
+    "pass@10": 0.9994829058450234
+  },
+  "codellama/CodeLlama-7b-Instruct-hf|cot": {
+    "attempts": 50,
+    "pass@1": 0.09999999999999998,
+    "pass@5": 0.4233613056693537,
+    "pass@10": 0.6894372179954313
+  },
+  "codellama/CodeLlama-7b-Instruct-hf|scot": {
+    "attempts": 50,
+    "pass@1": 0.09999999999999998,
+    "pass@5": 0.4233613056693537,
+    "pass@10": 0.6894372179954313
+  },
+  "codellama/CodeLlama-7b-Instruct-hf|self_planning": {
+    "attempts": 50,
+    "pass@1": 0.09999999999999998,
+    "pass@5": 0.4233613056693537,
+    "pass@10": 0.6894372179954313
+  },
+  "codellama/CodeLlama-7b-Instruct-hf|self_debugging": {
+    "attempts": 50,
+    "pass@1": 0.09999999999999998,
+    "pass@5": 0.4233613056693537,
+    "pass@10": 0.6894372179954313
+  },
+  "codellama/CodeLlama-7b-Instruct-hf|self_edit": {
+    "attempts": 50,
+    "pass@1": 0.16000000000000003,
+    "pass@5": 0.5985066737148144,
+    "pass@10": 0.8567559261296757
+  },
+  "codellama/CodeLlama-7b-Instruct-hf|self_repair-R2": {
+    "attempts": 50,
+    "pass@1": 0.33999999999999997,
+    "pass@5": 0.8879835375408257,
+    "pass@10": 0.9909892393422208
+  }
+}

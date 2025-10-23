@@ -1,0 +1,966 @@
+task_id,model,strategy,passed,error
+HumanEval/0,mistralai/Mistral-7B-Instruct-v0.2,cot,True,
+HumanEval/0,mistralai/Mistral-7B-Instruct-v0.2,cot,True,
+HumanEval/0,mistralai/Mistral-7B-Instruct-v0.2,cot,True,
+HumanEval/0,mistralai/Mistral-7B-Instruct-v0.2,scot,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 4
+    return bool(next((x1, x2 in pairwise(numbers) if abs(x1-x2) < threshold), False))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: expected 'else' after 'if' expression
+"
+HumanEval/0,mistralai/Mistral-7B-Instruct-v0.2,scot,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+ImportError: cannot import name 'Float' from 'typing' (/home/rbarkur_umass_edu/.conda/envs/ml_env/lib/python3.12/typing.py)
+"
+HumanEval/0,mistralai/Mistral-7B-Instruct-v0.2,scot,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+ImportError: cannot import name 'Float' from 'typing' (/home/rbarkur_umass_edu/.conda/envs/ml_env/lib/python3.12/typing.py)
+"
+HumanEval/0,mistralai/Mistral-7B-Instruct-v0.2,self_planning,True,
+HumanEval/0,mistralai/Mistral-7B-Instruct-v0.2,self_planning,True,
+HumanEval/0,mistralai/Mistral-7B-Instruct-v0.2,self_planning,True,
+HumanEval/0,mistralai/Mistral-7B-Instruct-v0.2,self_debugging,True,
+HumanEval/0,mistralai/Mistral-7B-Instruct-v0.2,self_debugging,True,
+HumanEval/0,mistralai/Mistral-7B-Instruct-v0.2,self_debugging,True,
+HumanEval/1,mistralai/Mistral-7B-Instruct-v0.2,cot,True,
+HumanEval/1,mistralai/Mistral-7B-Instruct-v0.2,cot,True,
+HumanEval/1,mistralai/Mistral-7B-Instruct-v0.2,cot,True,
+HumanEval/1,mistralai/Mistral-7B-Instruct-v0.2,scot,True,
+HumanEval/1,mistralai/Mistral-7B-Instruct-v0.2,scot,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 3, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/1,mistralai/Mistral-7B-Instruct-v0.2,scot,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 3, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/1,mistralai/Mistral-7B-Instruct-v0.2,self_planning,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+ModuleNotFoundError: No module named 'stack'
+"
+HumanEval/1,mistralai/Mistral-7B-Instruct-v0.2,self_planning,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+ModuleNotFoundError: No module named 'stack'
+"
+HumanEval/1,mistralai/Mistral-7B-Instruct-v0.2,self_planning,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+ModuleNotFoundError: No module named 'stack'
+"
+HumanEval/1,mistralai/Mistral-7B-Instruct-v0.2,self_debugging,True,
+HumanEval/1,mistralai/Mistral-7B-Instruct-v0.2,self_debugging,True,
+HumanEval/1,mistralai/Mistral-7B-Instruct-v0.2,self_debugging,True,
+HumanEval/2,mistralai/Mistral-7B-Instruct-v0.2,cot,True,
+HumanEval/2,mistralai/Mistral-7B-Instruct-v0.2,cot,True,
+HumanEval/2,mistralai/Mistral-7B-Instruct-v0.2,cot,True,
+HumanEval/2,mistralai/Mistral-7B-Instruct-v0.2,scot,True,
+HumanEval/2,mistralai/Mistral-7B-Instruct-v0.2,scot,True,
+HumanEval/2,mistralai/Mistral-7B-Instruct-v0.2,scot,True,
+HumanEval/2,mistralai/Mistral-7B-Instruct-v0.2,self_planning,True,
+HumanEval/2,mistralai/Mistral-7B-Instruct-v0.2,self_planning,True,
+HumanEval/2,mistralai/Mistral-7B-Instruct-v0.2,self_planning,True,
+HumanEval/2,mistralai/Mistral-7B-Instruct-v0.2,self_debugging,True,
+HumanEval/2,mistralai/Mistral-7B-Instruct-v0.2,self_debugging,True,
+HumanEval/2,mistralai/Mistral-7B-Instruct-v0.2,self_debugging,True,
+HumanEval/3,mistralai/Mistral-7B-Instruct-v0.2,cot,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 4, in <module>
+ImportError: cannot import name 'accumulate' from 'functools' (/home/rbarkur_umass_edu/.conda/envs/ml_env/lib/python3.12/functools.py)
+"
+HumanEval/3,mistralai/Mistral-7B-Instruct-v0.2,cot,True,
+HumanEval/3,mistralai/Mistral-7B-Instruct-v0.2,cot,True,
+HumanEval/3,mistralai/Mistral-7B-Instruct-v0.2,scot,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 4
+    sum += op
+    ^^^
+IndentationError: expected an indented block after 'for' statement on line 3
+"
+HumanEval/3,mistralai/Mistral-7B-Instruct-v0.2,scot,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 6
+    sum_operations += operation
+    ^^^^^^^^^^^^^^
+IndentationError: expected an indented block after 'for' statement on line 5
+"
+HumanEval/3,mistralai/Mistral-7B-Instruct-v0.2,scot,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 4
+    sum += op
+    ^^^
+IndentationError: expected an indented block after 'for' statement on line 3
+"
+HumanEval/3,mistralai/Mistral-7B-Instruct-v0.2,self_planning,True,
+HumanEval/3,mistralai/Mistral-7B-Instruct-v0.2,self_planning,True,
+HumanEval/3,mistralai/Mistral-7B-Instruct-v0.2,self_planning,True,
+HumanEval/3,mistralai/Mistral-7B-Instruct-v0.2,self_debugging,True,
+HumanEval/3,mistralai/Mistral-7B-Instruct-v0.2,self_debugging,True,
+HumanEval/3,mistralai/Mistral-7B-Instruct-v0.2,self_debugging,True,
+HumanEval/4,mistralai/Mistral-7B-Instruct-v0.2,cot,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+ImportError: cannot import name 'abs' from 'math' (/home/rbarkur_umass_edu/.conda/envs/ml_env/lib/python3.12/lib-dynload/math.cpython-312-x86_64-linux-gnu.so). Did you mean: 'fabs'?
+"
+HumanEval/4,mistralai/Mistral-7B-Instruct-v0.2,cot,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+ImportError: cannot import name 'abs' from 'math' (/home/rbarkur_umass_edu/.conda/envs/ml_env/lib/python3.12/lib-dynload/math.cpython-312-x86_64-linux-gnu.so). Did you mean: 'fabs'?
+"
+HumanEval/4,mistralai/Mistral-7B-Instruct-v0.2,cot,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+ImportError: cannot import name 'abs' from 'math' (/home/rbarkur_umass_edu/.conda/envs/ml_env/lib/python3.12/lib-dynload/math.cpython-312-x86_64-linux-gnu.so). Did you mean: 'fabs'?
+"
+HumanEval/4,mistralai/Mistral-7B-Instruct-v0.2,scot,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+ImportError: cannot import name 'Float' from 'typing' (/home/rbarkur_umass_edu/.conda/envs/ml_env/lib/python3.12/typing.py)
+"
+HumanEval/4,mistralai/Mistral-7B-Instruct-v0.2,scot,True,
+HumanEval/4,mistralai/Mistral-7B-Instruct-v0.2,scot,True,
+HumanEval/4,mistralai/Mistral-7B-Instruct-v0.2,self_planning,True,
+HumanEval/4,mistralai/Mistral-7B-Instruct-v0.2,self_planning,True,
+HumanEval/4,mistralai/Mistral-7B-Instruct-v0.2,self_planning,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+ImportError: cannot import name 'float' from 'typing' (/home/rbarkur_umass_edu/.conda/envs/ml_env/lib/python3.12/typing.py)
+"
+HumanEval/4,mistralai/Mistral-7B-Instruct-v0.2,self_debugging,True,
+HumanEval/4,mistralai/Mistral-7B-Instruct-v0.2,self_debugging,True,
+HumanEval/4,mistralai/Mistral-7B-Instruct-v0.2,self_debugging,True,
+HumanEval/5,mistralai/Mistral-7B-Instruct-v0.2,cot,True,
+HumanEval/5,mistralai/Mistral-7B-Instruct-v0.2,cot,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 4
+    return list(chain.from_iterable(map(lambda x, d: [d] + x if x else [x] for x, d in zip(numbers, repeat(delimeter, len(numbers)))))
+               ^
+SyntaxError: '(' was never closed
+"
+HumanEval/5,mistralai/Mistral-7B-Instruct-v0.2,cot,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 2
+    return [x[0]] + [delimeter] + x[1:] if numbers else [] else numbers \
+                                                           ^^^^
+SyntaxError: invalid syntax
+"
+HumanEval/5,mistralai/Mistral-7B-Instruct-v0.2,scot,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/5,mistralai/Mistral-7B-Instruct-v0.2,scot,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/5,mistralai/Mistral-7B-Instruct-v0.2,scot,True,
+HumanEval/5,mistralai/Mistral-7B-Instruct-v0.2,self_planning,True,
+HumanEval/5,mistralai/Mistral-7B-Instruct-v0.2,self_planning,True,
+HumanEval/5,mistralai/Mistral-7B-Instruct-v0.2,self_planning,True,
+HumanEval/5,mistralai/Mistral-7B-Instruct-v0.2,self_debugging,True,
+HumanEval/5,mistralai/Mistral-7B-Instruct-v0.2,self_debugging,True,
+HumanEval/5,mistralai/Mistral-7B-Instruct-v0.2,self_debugging,True,
+HumanEval/6,mistralai/Mistral-7B-Instruct-v0.2,cot,True,
+HumanEval/6,mistralai/Mistral-7B-Instruct-v0.2,cot,True,
+HumanEval/6,mistralai/Mistral-7B-Instruct-v0.2,cot,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+ModuleNotFoundError: No module named 'stack'
+"
+HumanEval/6,mistralai/Mistral-7B-Instruct-v0.2,scot,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 2, in <module>
+ModuleNotFoundError: No module named 'stack'
+"
+HumanEval/6,mistralai/Mistral-7B-Instruct-v0.2,scot,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 5
+    if char == '(':
+    ^^
+IndentationError: expected an indented block after 'for' statement on line 4
+"
+HumanEval/6,mistralai/Mistral-7B-Instruct-v0.2,scot,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 2, in <module>
+ModuleNotFoundError: No module named 'stack'
+"
+HumanEval/6,mistralai/Mistral-7B-Instruct-v0.2,self_planning,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+ModuleNotFoundError: No module named 'stack'
+"
+HumanEval/6,mistralai/Mistral-7B-Instruct-v0.2,self_planning,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+ModuleNotFoundError: No module named 'stack'
+"
+HumanEval/6,mistralai/Mistral-7B-Instruct-v0.2,self_planning,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 7
+    return [len(match[0].split(""("")[1:].count(""("") for match in matches]
+                                                                       ^
+SyntaxError: closing parenthesis ']' does not match opening parenthesis '('
+"
+HumanEval/6,mistralai/Mistral-7B-Instruct-v0.2,self_debugging,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 5
+    def depth_first_search(stack, current_depth):
+    ^^^
+IndentationError: expected an indented block after function definition on line 3
+"
+HumanEval/6,mistralai/Mistral-7B-Instruct-v0.2,self_debugging,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 5
+    def depth_first_search(stack, open_paren_count):
+    ^^^
+IndentationError: expected an indented block after function definition on line 3
+"
+HumanEval/6,mistralai/Mistral-7B-Instruct-v0.2,self_debugging,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 7
+    max_depth = max(max_depth, len(stack)+1
+                   ^
+SyntaxError: '(' was never closed
+"
+HumanEval/7,mistralai/Mistral-7B-Instruct-v0.2,cot,True,
+HumanEval/7,mistralai/Mistral-7B-Instruct-v0.2,cot,True,
+HumanEval/7,mistralai/Mistral-7B-Instruct-v0.2,cot,True,
+HumanEval/7,mistralai/Mistral-7B-Instruct-v0.2,scot,True,
+HumanEval/7,mistralai/Mistral-7B-Instruct-v0.2,scot,True,
+HumanEval/7,mistralai/Mistral-7B-Instruct-v0.2,scot,True,
+HumanEval/7,mistralai/Mistral-7B-Instruct-v0.2,self_planning,True,
+HumanEval/7,mistralai/Mistral-7B-Instruct-v0.2,self_planning,True,
+HumanEval/7,mistralai/Mistral-7B-Instruct-v0.2,self_planning,True,
+HumanEval/7,mistralai/Mistral-7B-Instruct-v0.2,self_debugging,True,
+HumanEval/7,mistralai/Mistral-7B-Instruct-v0.2,self_debugging,True,
+HumanEval/7,mistralai/Mistral-7B-Instruct-v0.2,self_debugging,True,
+HumanEval/8,mistralai/Mistral-7B-Instruct-v0.2,cot,True,
+HumanEval/8,mistralai/Mistral-7B-Instruct-v0.2,cot,True,
+HumanEval/8,mistralai/Mistral-7B-Instruct-v0.2,cot,True,
+HumanEval/8,mistralai/Mistral-7B-Instruct-v0.2,scot,True,
+HumanEval/8,mistralai/Mistral-7B-Instruct-v0.2,scot,True,
+HumanEval/8,mistralai/Mistral-7B-Instruct-v0.2,scot,True,
+HumanEval/8,mistralai/Mistral-7B-Instruct-v0.2,self_planning,True,
+HumanEval/8,mistralai/Mistral-7B-Instruct-v0.2,self_planning,True,
+HumanEval/8,mistralai/Mistral-7B-Instruct-v0.2,self_planning,True,
+HumanEval/8,mistralai/Mistral-7B-Instruct-v0.2,self_debugging,True,
+HumanEval/8,mistralai/Mistral-7B-Instruct-v0.2,self_debugging,True,
+HumanEval/8,mistralai/Mistral-7B-Instruct-v0.2,self_debugging,True,
+HumanEval/9,mistralai/Mistral-7B-Instruct-v0.2,cot,True,
+HumanEval/9,mistralai/Mistral-7B-Instruct-v0.2,cot,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 4
+    return [numbers[i] for i in range(len(numbers))] if i == 0 else max(numbers[i], numbers[i-1]) for i in range(1, len(numbers))
+                                                                                                  ^^^
+SyntaxError: invalid syntax
+"
+HumanEval/9,mistralai/Mistral-7B-Instruct-v0.2,cot,True,
+HumanEval/9,mistralai/Mistral-7B-Instruct-v0.2,scot,True,
+HumanEval/9,mistralai/Mistral-7B-Instruct-v0.2,scot,True,
+HumanEval/9,mistralai/Mistral-7B-Instruct-v0.2,scot,True,
+HumanEval/9,mistralai/Mistral-7B-Instruct-v0.2,self_planning,True,
+HumanEval/9,mistralai/Mistral-7B-Instruct-v0.2,self_planning,True,
+HumanEval/9,mistralai/Mistral-7B-Instruct-v0.2,self_planning,True,
+HumanEval/9,mistralai/Mistral-7B-Instruct-v0.2,self_debugging,True,
+HumanEval/9,mistralai/Mistral-7B-Instruct-v0.2,self_debugging,True,
+HumanEval/9,mistralai/Mistral-7B-Instruct-v0.2,self_debugging,True,
+HumanEval/0,codellama/CodeLlama-7b-Instruct-hf,cot,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/0,codellama/CodeLlama-7b-Instruct-hf,cot,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/0,codellama/CodeLlama-7b-Instruct-hf,cot,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/0,codellama/CodeLlama-7b-Instruct-hf,scot,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/0,codellama/CodeLlama-7b-Instruct-hf,scot,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/0,codellama/CodeLlama-7b-Instruct-hf,scot,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/0,codellama/CodeLlama-7b-Instruct-hf,self_planning,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/0,codellama/CodeLlama-7b-Instruct-hf,self_planning,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/0,codellama/CodeLlama-7b-Instruct-hf,self_planning,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/0,codellama/CodeLlama-7b-Instruct-hf,self_debugging,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/0,codellama/CodeLlama-7b-Instruct-hf,self_debugging,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/0,codellama/CodeLlama-7b-Instruct-hf,self_debugging,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/1,codellama/CodeLlama-7b-Instruct-hf,cot,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/1,codellama/CodeLlama-7b-Instruct-hf,cot,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/1,codellama/CodeLlama-7b-Instruct-hf,cot,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/1,codellama/CodeLlama-7b-Instruct-hf,scot,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/1,codellama/CodeLlama-7b-Instruct-hf,scot,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/1,codellama/CodeLlama-7b-Instruct-hf,scot,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/1,codellama/CodeLlama-7b-Instruct-hf,self_planning,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/1,codellama/CodeLlama-7b-Instruct-hf,self_planning,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/1,codellama/CodeLlama-7b-Instruct-hf,self_planning,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/1,codellama/CodeLlama-7b-Instruct-hf,self_debugging,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/1,codellama/CodeLlama-7b-Instruct-hf,self_debugging,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/1,codellama/CodeLlama-7b-Instruct-hf,self_debugging,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/2,codellama/CodeLlama-7b-Instruct-hf,cot,True,
+HumanEval/2,codellama/CodeLlama-7b-Instruct-hf,cot,True,
+HumanEval/2,codellama/CodeLlama-7b-Instruct-hf,cot,True,
+HumanEval/2,codellama/CodeLlama-7b-Instruct-hf,scot,True,
+HumanEval/2,codellama/CodeLlama-7b-Instruct-hf,scot,True,
+HumanEval/2,codellama/CodeLlama-7b-Instruct-hf,scot,True,
+HumanEval/2,codellama/CodeLlama-7b-Instruct-hf,self_planning,True,
+HumanEval/2,codellama/CodeLlama-7b-Instruct-hf,self_planning,True,
+HumanEval/2,codellama/CodeLlama-7b-Instruct-hf,self_planning,True,
+HumanEval/2,codellama/CodeLlama-7b-Instruct-hf,self_debugging,True,
+HumanEval/2,codellama/CodeLlama-7b-Instruct-hf,self_debugging,True,
+HumanEval/2,codellama/CodeLlama-7b-Instruct-hf,self_debugging,True,
+HumanEval/3,codellama/CodeLlama-7b-Instruct-hf,cot,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/3,codellama/CodeLlama-7b-Instruct-hf,cot,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/3,codellama/CodeLlama-7b-Instruct-hf,cot,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/3,codellama/CodeLlama-7b-Instruct-hf,scot,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/3,codellama/CodeLlama-7b-Instruct-hf,scot,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/3,codellama/CodeLlama-7b-Instruct-hf,scot,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/3,codellama/CodeLlama-7b-Instruct-hf,self_planning,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/3,codellama/CodeLlama-7b-Instruct-hf,self_planning,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/3,codellama/CodeLlama-7b-Instruct-hf,self_planning,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/3,codellama/CodeLlama-7b-Instruct-hf,self_debugging,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/3,codellama/CodeLlama-7b-Instruct-hf,self_debugging,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/3,codellama/CodeLlama-7b-Instruct-hf,self_debugging,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/4,codellama/CodeLlama-7b-Instruct-hf,cot,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/4,codellama/CodeLlama-7b-Instruct-hf,cot,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/4,codellama/CodeLlama-7b-Instruct-hf,cot,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/4,codellama/CodeLlama-7b-Instruct-hf,scot,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/4,codellama/CodeLlama-7b-Instruct-hf,scot,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/4,codellama/CodeLlama-7b-Instruct-hf,scot,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/4,codellama/CodeLlama-7b-Instruct-hf,self_planning,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/4,codellama/CodeLlama-7b-Instruct-hf,self_planning,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/4,codellama/CodeLlama-7b-Instruct-hf,self_planning,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/4,codellama/CodeLlama-7b-Instruct-hf,self_debugging,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/4,codellama/CodeLlama-7b-Instruct-hf,self_debugging,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/4,codellama/CodeLlama-7b-Instruct-hf,self_debugging,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/5,codellama/CodeLlama-7b-Instruct-hf,cot,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/5,codellama/CodeLlama-7b-Instruct-hf,cot,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/5,codellama/CodeLlama-7b-Instruct-hf,cot,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/5,codellama/CodeLlama-7b-Instruct-hf,scot,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/5,codellama/CodeLlama-7b-Instruct-hf,scot,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/5,codellama/CodeLlama-7b-Instruct-hf,scot,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/5,codellama/CodeLlama-7b-Instruct-hf,self_planning,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/5,codellama/CodeLlama-7b-Instruct-hf,self_planning,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/5,codellama/CodeLlama-7b-Instruct-hf,self_planning,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/5,codellama/CodeLlama-7b-Instruct-hf,self_debugging,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/5,codellama/CodeLlama-7b-Instruct-hf,self_debugging,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/5,codellama/CodeLlama-7b-Instruct-hf,self_debugging,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/6,codellama/CodeLlama-7b-Instruct-hf,cot,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/6,codellama/CodeLlama-7b-Instruct-hf,cot,True,
+HumanEval/6,codellama/CodeLlama-7b-Instruct-hf,cot,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/6,codellama/CodeLlama-7b-Instruct-hf,scot,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1
+    [INST] <<SYS>>
+                  ^
+SyntaxError: invalid syntax
+"
+HumanEval/6,codellama/CodeLlama-7b-Instruct-hf,scot,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/6,codellama/CodeLlama-7b-Instruct-hf,scot,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/6,codellama/CodeLlama-7b-Instruct-hf,self_planning,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/6,codellama/CodeLlama-7b-Instruct-hf,self_planning,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/6,codellama/CodeLlama-7b-Instruct-hf,self_planning,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/6,codellama/CodeLlama-7b-Instruct-hf,self_debugging,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/6,codellama/CodeLlama-7b-Instruct-hf,self_debugging,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/6,codellama/CodeLlama-7b-Instruct-hf,self_debugging,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/7,codellama/CodeLlama-7b-Instruct-hf,cot,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/7,codellama/CodeLlama-7b-Instruct-hf,cot,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/7,codellama/CodeLlama-7b-Instruct-hf,cot,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/7,codellama/CodeLlama-7b-Instruct-hf,scot,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/7,codellama/CodeLlama-7b-Instruct-hf,scot,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/7,codellama/CodeLlama-7b-Instruct-hf,scot,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/7,codellama/CodeLlama-7b-Instruct-hf,self_planning,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/7,codellama/CodeLlama-7b-Instruct-hf,self_planning,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/7,codellama/CodeLlama-7b-Instruct-hf,self_planning,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/7,codellama/CodeLlama-7b-Instruct-hf,self_debugging,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/7,codellama/CodeLlama-7b-Instruct-hf,self_debugging,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/7,codellama/CodeLlama-7b-Instruct-hf,self_debugging,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/8,codellama/CodeLlama-7b-Instruct-hf,cot,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/8,codellama/CodeLlama-7b-Instruct-hf,cot,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/8,codellama/CodeLlama-7b-Instruct-hf,cot,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/8,codellama/CodeLlama-7b-Instruct-hf,scot,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1
+    [INST] <<SYS>>
+                  ^
+SyntaxError: invalid syntax
+"
+HumanEval/8,codellama/CodeLlama-7b-Instruct-hf,scot,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/8,codellama/CodeLlama-7b-Instruct-hf,scot,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/8,codellama/CodeLlama-7b-Instruct-hf,self_planning,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/8,codellama/CodeLlama-7b-Instruct-hf,self_planning,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/8,codellama/CodeLlama-7b-Instruct-hf,self_planning,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/8,codellama/CodeLlama-7b-Instruct-hf,self_debugging,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/8,codellama/CodeLlama-7b-Instruct-hf,self_debugging,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/8,codellama/CodeLlama-7b-Instruct-hf,self_debugging,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/9,codellama/CodeLlama-7b-Instruct-hf,cot,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/9,codellama/CodeLlama-7b-Instruct-hf,cot,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/9,codellama/CodeLlama-7b-Instruct-hf,cot,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/9,codellama/CodeLlama-7b-Instruct-hf,scot,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1
+    [INST] <<SYS>>
+                  ^
+SyntaxError: invalid syntax
+"
+HumanEval/9,codellama/CodeLlama-7b-Instruct-hf,scot,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/9,codellama/CodeLlama-7b-Instruct-hf,scot,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/9,codellama/CodeLlama-7b-Instruct-hf,self_planning,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/9,codellama/CodeLlama-7b-Instruct-hf,self_planning,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/9,codellama/CodeLlama-7b-Instruct-hf,self_planning,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/9,codellama/CodeLlama-7b-Instruct-hf,self_debugging,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/9,codellama/CodeLlama-7b-Instruct-hf,self_debugging,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"
+HumanEval/9,codellama/CodeLlama-7b-Instruct-hf,self_debugging,False,"Traceback (most recent call last):
+  File ""/home/rbarkur_umass_edu/assignment.py"", line 159, in _worker
+    exec(code, g, g)
+  File ""<string>"", line 1, in <module>
+NameError: name 'List' is not defined. Did you mean: 'list'?
+"

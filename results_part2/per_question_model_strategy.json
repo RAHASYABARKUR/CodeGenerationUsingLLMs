@@ -1,0 +1,562 @@
+{
+  "mistralai/Mistral-7B-Instruct-v0.2|cot|HumanEval/0": {
+    "pass@1": 1,
+    "pass@3": 1,
+    "pass@5": 1,
+    "n": 3,
+    "c": 3
+  },
+  "mistralai/Mistral-7B-Instruct-v0.2|scot|HumanEval/0": {
+    "pass@1": 0.0,
+    "pass@3": 0.0,
+    "pass@5": 0.0,
+    "n": 3,
+    "c": 0
+  },
+  "mistralai/Mistral-7B-Instruct-v0.2|self_planning|HumanEval/0": {
+    "pass@1": 1,
+    "pass@3": 1,
+    "pass@5": 1,
+    "n": 3,
+    "c": 3
+  },
+  "mistralai/Mistral-7B-Instruct-v0.2|self_debugging|HumanEval/0": {
+    "pass@1": 1,
+    "pass@3": 1,
+    "pass@5": 1,
+    "n": 3,
+    "c": 3
+  },
+  "mistralai/Mistral-7B-Instruct-v0.2|cot|HumanEval/1": {
+    "pass@1": 1,
+    "pass@3": 1,
+    "pass@5": 1,
+    "n": 3,
+    "c": 3
+  },
+  "mistralai/Mistral-7B-Instruct-v0.2|scot|HumanEval/1": {
+    "pass@1": 0.33333333333333337,
+    "pass@3": 1,
+    "pass@5": 1,
+    "n": 3,
+    "c": 1
+  },
+  "mistralai/Mistral-7B-Instruct-v0.2|self_planning|HumanEval/1": {
+    "pass@1": 0.0,
+    "pass@3": 0.0,
+    "pass@5": 0.0,
+    "n": 3,
+    "c": 0
+  },
+  "mistralai/Mistral-7B-Instruct-v0.2|self_debugging|HumanEval/1": {
+    "pass@1": 1,
+    "pass@3": 1,
+    "pass@5": 1,
+    "n": 3,
+    "c": 3
+  },
+  "mistralai/Mistral-7B-Instruct-v0.2|cot|HumanEval/2": {
+    "pass@1": 1,
+    "pass@3": 1,
+    "pass@5": 1,
+    "n": 3,
+    "c": 3
+  },
+  "mistralai/Mistral-7B-Instruct-v0.2|scot|HumanEval/2": {
+    "pass@1": 1,
+    "pass@3": 1,
+    "pass@5": 1,
+    "n": 3,
+    "c": 3
+  },
+  "mistralai/Mistral-7B-Instruct-v0.2|self_planning|HumanEval/2": {
+    "pass@1": 1,
+    "pass@3": 1,
+    "pass@5": 1,
+    "n": 3,
+    "c": 3
+  },
+  "mistralai/Mistral-7B-Instruct-v0.2|self_debugging|HumanEval/2": {
+    "pass@1": 1,
+    "pass@3": 1,
+    "pass@5": 1,
+    "n": 3,
+    "c": 3
+  },
+  "mistralai/Mistral-7B-Instruct-v0.2|cot|HumanEval/3": {
+    "pass@1": 0.6666666666666667,
+    "pass@3": 1,
+    "pass@5": 1,
+    "n": 3,
+    "c": 2
+  },
+  "mistralai/Mistral-7B-Instruct-v0.2|scot|HumanEval/3": {
+    "pass@1": 0.0,
+    "pass@3": 0.0,
+    "pass@5": 0.0,
+    "n": 3,
+    "c": 0
+  },
+  "mistralai/Mistral-7B-Instruct-v0.2|self_planning|HumanEval/3": {
+    "pass@1": 1,
+    "pass@3": 1,
+    "pass@5": 1,
+    "n": 3,
+    "c": 3
+  },
+  "mistralai/Mistral-7B-Instruct-v0.2|self_debugging|HumanEval/3": {
+    "pass@1": 1,
+    "pass@3": 1,
+    "pass@5": 1,
+    "n": 3,
+    "c": 3
+  },
+  "mistralai/Mistral-7B-Instruct-v0.2|cot|HumanEval/4": {
+    "pass@1": 0.0,
+    "pass@3": 0.0,
+    "pass@5": 0.0,
+    "n": 3,
+    "c": 0
+  },
+  "mistralai/Mistral-7B-Instruct-v0.2|scot|HumanEval/4": {
+    "pass@1": 0.6666666666666667,
+    "pass@3": 1,
+    "pass@5": 1,
+    "n": 3,
+    "c": 2
+  },
+  "mistralai/Mistral-7B-Instruct-v0.2|self_planning|HumanEval/4": {
+    "pass@1": 0.6666666666666667,
+    "pass@3": 1,
+    "pass@5": 1,
+    "n": 3,
+    "c": 2
+  },
+  "mistralai/Mistral-7B-Instruct-v0.2|self_debugging|HumanEval/4": {
+    "pass@1": 1,
+    "pass@3": 1,
+    "pass@5": 1,
+    "n": 3,
+    "c": 3
+  },
+  "mistralai/Mistral-7B-Instruct-v0.2|cot|HumanEval/5": {
+    "pass@1": 0.33333333333333337,
+    "pass@3": 1,
+    "pass@5": 1,
+    "n": 3,
+    "c": 1
+  },
+  "mistralai/Mistral-7B-Instruct-v0.2|scot|HumanEval/5": {
+    "pass@1": 0.33333333333333337,
+    "pass@3": 1,
+    "pass@5": 1,
+    "n": 3,
+    "c": 1
+  },
+  "mistralai/Mistral-7B-Instruct-v0.2|self_planning|HumanEval/5": {
+    "pass@1": 1,
+    "pass@3": 1,
+    "pass@5": 1,
+    "n": 3,
+    "c": 3
+  },
+  "mistralai/Mistral-7B-Instruct-v0.2|self_debugging|HumanEval/5": {
+    "pass@1": 1,
+    "pass@3": 1,
+    "pass@5": 1,
+    "n": 3,
+    "c": 3
+  },
+  "mistralai/Mistral-7B-Instruct-v0.2|cot|HumanEval/6": {
+    "pass@1": 0.6666666666666667,
+    "pass@3": 1,
+    "pass@5": 1,
+    "n": 3,
+    "c": 2
+  },
+  "mistralai/Mistral-7B-Instruct-v0.2|scot|HumanEval/6": {
+    "pass@1": 0.0,
+    "pass@3": 0.0,
+    "pass@5": 0.0,
+    "n": 3,
+    "c": 0
+  },
+  "mistralai/Mistral-7B-Instruct-v0.2|self_planning|HumanEval/6": {
+    "pass@1": 0.0,
+    "pass@3": 0.0,
+    "pass@5": 0.0,
+    "n": 3,
+    "c": 0
+  },
+  "mistralai/Mistral-7B-Instruct-v0.2|self_debugging|HumanEval/6": {
+    "pass@1": 0.0,
+    "pass@3": 0.0,
+    "pass@5": 0.0,
+    "n": 3,
+    "c": 0
+  },
+  "mistralai/Mistral-7B-Instruct-v0.2|cot|HumanEval/7": {
+    "pass@1": 1,
+    "pass@3": 1,
+    "pass@5": 1,
+    "n": 3,
+    "c": 3
+  },
+  "mistralai/Mistral-7B-Instruct-v0.2|scot|HumanEval/7": {
+    "pass@1": 1,
+    "pass@3": 1,
+    "pass@5": 1,
+    "n": 3,
+    "c": 3
+  },
+  "mistralai/Mistral-7B-Instruct-v0.2|self_planning|HumanEval/7": {
+    "pass@1": 1,
+    "pass@3": 1,
+    "pass@5": 1,
+    "n": 3,
+    "c": 3
+  },
+  "mistralai/Mistral-7B-Instruct-v0.2|self_debugging|HumanEval/7": {
+    "pass@1": 1,
+    "pass@3": 1,
+    "pass@5": 1,
+    "n": 3,
+    "c": 3
+  },
+  "mistralai/Mistral-7B-Instruct-v0.2|cot|HumanEval/8": {
+    "pass@1": 1,
+    "pass@3": 1,
+    "pass@5": 1,
+    "n": 3,
+    "c": 3
+  },
+  "mistralai/Mistral-7B-Instruct-v0.2|scot|HumanEval/8": {
+    "pass@1": 1,
+    "pass@3": 1,
+    "pass@5": 1,
+    "n": 3,
+    "c": 3
+  },
+  "mistralai/Mistral-7B-Instruct-v0.2|self_planning|HumanEval/8": {
+    "pass@1": 1,
+    "pass@3": 1,
+    "pass@5": 1,
+    "n": 3,
+    "c": 3
+  },
+  "mistralai/Mistral-7B-Instruct-v0.2|self_debugging|HumanEval/8": {
+    "pass@1": 1,
+    "pass@3": 1,
+    "pass@5": 1,
+    "n": 3,
+    "c": 3
+  },
+  "mistralai/Mistral-7B-Instruct-v0.2|cot|HumanEval/9": {
+    "pass@1": 0.6666666666666667,
+    "pass@3": 1,
+    "pass@5": 1,
+    "n": 3,
+    "c": 2
+  },
+  "mistralai/Mistral-7B-Instruct-v0.2|scot|HumanEval/9": {
+    "pass@1": 1,
+    "pass@3": 1,
+    "pass@5": 1,
+    "n": 3,
+    "c": 3
+  },
+  "mistralai/Mistral-7B-Instruct-v0.2|self_planning|HumanEval/9": {
+    "pass@1": 1,
+    "pass@3": 1,
+    "pass@5": 1,
+    "n": 3,
+    "c": 3
+  },
+  "mistralai/Mistral-7B-Instruct-v0.2|self_debugging|HumanEval/9": {
+    "pass@1": 1,
+    "pass@3": 1,
+    "pass@5": 1,
+    "n": 3,
+    "c": 3
+  },
+  "codellama/CodeLlama-7b-Instruct-hf|cot|HumanEval/0": {
+    "pass@1": 0.0,
+    "pass@3": 0.0,
+    "pass@5": 0.0,
+    "n": 3,
+    "c": 0
+  },
+  "codellama/CodeLlama-7b-Instruct-hf|scot|HumanEval/0": {
+    "pass@1": 0.0,
+    "pass@3": 0.0,
+    "pass@5": 0.0,
+    "n": 3,
+    "c": 0
+  },
+  "codellama/CodeLlama-7b-Instruct-hf|self_planning|HumanEval/0": {
+    "pass@1": 0.0,
+    "pass@3": 0.0,
+    "pass@5": 0.0,
+    "n": 3,
+    "c": 0
+  },
+  "codellama/CodeLlama-7b-Instruct-hf|self_debugging|HumanEval/0": {
+    "pass@1": 0.0,
+    "pass@3": 0.0,
+    "pass@5": 0.0,
+    "n": 3,
+    "c": 0
+  },
+  "codellama/CodeLlama-7b-Instruct-hf|cot|HumanEval/1": {
+    "pass@1": 0.0,
+    "pass@3": 0.0,
+    "pass@5": 0.0,
+    "n": 3,
+    "c": 0
+  },
+  "codellama/CodeLlama-7b-Instruct-hf|scot|HumanEval/1": {
+    "pass@1": 0.0,
+    "pass@3": 0.0,
+    "pass@5": 0.0,
+    "n": 3,
+    "c": 0
+  },
+  "codellama/CodeLlama-7b-Instruct-hf|self_planning|HumanEval/1": {
+    "pass@1": 0.0,
+    "pass@3": 0.0,
+    "pass@5": 0.0,
+    "n": 3,
+    "c": 0
+  },
+  "codellama/CodeLlama-7b-Instruct-hf|self_debugging|HumanEval/1": {
+    "pass@1": 0.0,
+    "pass@3": 0.0,
+    "pass@5": 0.0,
+    "n": 3,
+    "c": 0
+  },
+  "codellama/CodeLlama-7b-Instruct-hf|cot|HumanEval/2": {
+    "pass@1": 1,
+    "pass@3": 1,
+    "pass@5": 1,
+    "n": 3,
+    "c": 3
+  },
+  "codellama/CodeLlama-7b-Instruct-hf|scot|HumanEval/2": {
+    "pass@1": 1,
+    "pass@3": 1,
+    "pass@5": 1,
+    "n": 3,
+    "c": 3
+  },
+  "codellama/CodeLlama-7b-Instruct-hf|self_planning|HumanEval/2": {
+    "pass@1": 1,
+    "pass@3": 1,
+    "pass@5": 1,
+    "n": 3,
+    "c": 3
+  },
+  "codellama/CodeLlama-7b-Instruct-hf|self_debugging|HumanEval/2": {
+    "pass@1": 1,
+    "pass@3": 1,
+    "pass@5": 1,
+    "n": 3,
+    "c": 3
+  },
+  "codellama/CodeLlama-7b-Instruct-hf|cot|HumanEval/3": {
+    "pass@1": 0.0,
+    "pass@3": 0.0,
+    "pass@5": 0.0,
+    "n": 3,
+    "c": 0
+  },
+  "codellama/CodeLlama-7b-Instruct-hf|scot|HumanEval/3": {
+    "pass@1": 0.0,
+    "pass@3": 0.0,
+    "pass@5": 0.0,
+    "n": 3,
+    "c": 0
+  },
+  "codellama/CodeLlama-7b-Instruct-hf|self_planning|HumanEval/3": {
+    "pass@1": 0.0,
+    "pass@3": 0.0,
+    "pass@5": 0.0,
+    "n": 3,
+    "c": 0
+  },
+  "codellama/CodeLlama-7b-Instruct-hf|self_debugging|HumanEval/3": {
+    "pass@1": 0.0,
+    "pass@3": 0.0,
+    "pass@5": 0.0,
+    "n": 3,
+    "c": 0
+  },
+  "codellama/CodeLlama-7b-Instruct-hf|cot|HumanEval/4": {
+    "pass@1": 0.0,
+    "pass@3": 0.0,
+    "pass@5": 0.0,
+    "n": 3,
+    "c": 0
+  },
+  "codellama/CodeLlama-7b-Instruct-hf|scot|HumanEval/4": {
+    "pass@1": 0.0,
+    "pass@3": 0.0,
+    "pass@5": 0.0,
+    "n": 3,
+    "c": 0
+  },
+  "codellama/CodeLlama-7b-Instruct-hf|self_planning|HumanEval/4": {
+    "pass@1": 0.0,
+    "pass@3": 0.0,
+    "pass@5": 0.0,
+    "n": 3,
+    "c": 0
+  },
+  "codellama/CodeLlama-7b-Instruct-hf|self_debugging|HumanEval/4": {
+    "pass@1": 0.0,
+    "pass@3": 0.0,
+    "pass@5": 0.0,
+    "n": 3,
+    "c": 0
+  },
+  "codellama/CodeLlama-7b-Instruct-hf|cot|HumanEval/5": {
+    "pass@1": 0.0,
+    "pass@3": 0.0,
+    "pass@5": 0.0,
+    "n": 3,
+    "c": 0
+  },
+  "codellama/CodeLlama-7b-Instruct-hf|scot|HumanEval/5": {
+    "pass@1": 0.0,
+    "pass@3": 0.0,
+    "pass@5": 0.0,
+    "n": 3,
+    "c": 0
+  },
+  "codellama/CodeLlama-7b-Instruct-hf|self_planning|HumanEval/5": {
+    "pass@1": 0.0,
+    "pass@3": 0.0,
+    "pass@5": 0.0,
+    "n": 3,
+    "c": 0
+  },
+  "codellama/CodeLlama-7b-Instruct-hf|self_debugging|HumanEval/5": {
+    "pass@1": 0.0,
+    "pass@3": 0.0,
+    "pass@5": 0.0,
+    "n": 3,
+    "c": 0
+  },
+  "codellama/CodeLlama-7b-Instruct-hf|cot|HumanEval/6": {
+    "pass@1": 0.33333333333333337,
+    "pass@3": 1,
+    "pass@5": 1,
+    "n": 3,
+    "c": 1
+  },
+  "codellama/CodeLlama-7b-Instruct-hf|scot|HumanEval/6": {
+    "pass@1": 0.0,
+    "pass@3": 0.0,
+    "pass@5": 0.0,
+    "n": 3,
+    "c": 0
+  },
+  "codellama/CodeLlama-7b-Instruct-hf|self_planning|HumanEval/6": {
+    "pass@1": 0.0,
+    "pass@3": 0.0,
+    "pass@5": 0.0,
+    "n": 3,
+    "c": 0
+  },
+  "codellama/CodeLlama-7b-Instruct-hf|self_debugging|HumanEval/6": {
+    "pass@1": 0.0,
+    "pass@3": 0.0,
+    "pass@5": 0.0,
+    "n": 3,
+    "c": 0
+  },
+  "codellama/CodeLlama-7b-Instruct-hf|cot|HumanEval/7": {
+    "pass@1": 0.0,
+    "pass@3": 0.0,
+    "pass@5": 0.0,
+    "n": 3,
+    "c": 0
+  },
+  "codellama/CodeLlama-7b-Instruct-hf|scot|HumanEval/7": {
+    "pass@1": 0.0,
+    "pass@3": 0.0,
+    "pass@5": 0.0,
+    "n": 3,
+    "c": 0
+  },
+  "codellama/CodeLlama-7b-Instruct-hf|self_planning|HumanEval/7": {
+    "pass@1": 0.0,
+    "pass@3": 0.0,
+    "pass@5": 0.0,
+    "n": 3,
+    "c": 0
+  },
+  "codellama/CodeLlama-7b-Instruct-hf|self_debugging|HumanEval/7": {
+    "pass@1": 0.0,
+    "pass@3": 0.0,
+    "pass@5": 0.0,
+    "n": 3,
+    "c": 0
+  },
+  "codellama/CodeLlama-7b-Instruct-hf|cot|HumanEval/8": {
+    "pass@1": 0.0,
+    "pass@3": 0.0,
+    "pass@5": 0.0,
+    "n": 3,
+    "c": 0
+  },
+  "codellama/CodeLlama-7b-Instruct-hf|scot|HumanEval/8": {
+    "pass@1": 0.0,
+    "pass@3": 0.0,
+    "pass@5": 0.0,
+    "n": 3,
+    "c": 0
+  },
+  "codellama/CodeLlama-7b-Instruct-hf|self_planning|HumanEval/8": {
+    "pass@1": 0.0,
+    "pass@3": 0.0,
+    "pass@5": 0.0,
+    "n": 3,
+    "c": 0
+  },
+  "codellama/CodeLlama-7b-Instruct-hf|self_debugging|HumanEval/8": {
+    "pass@1": 0.0,
+    "pass@3": 0.0,
+    "pass@5": 0.0,
+    "n": 3,
+    "c": 0
+  },
+  "codellama/CodeLlama-7b-Instruct-hf|cot|HumanEval/9": {
+    "pass@1": 0.0,
+    "pass@3": 0.0,
+    "pass@5": 0.0,
+    "n": 3,
+    "c": 0
+  },
+  "codellama/CodeLlama-7b-Instruct-hf|scot|HumanEval/9": {
+    "pass@1": 0.0,
+    "pass@3": 0.0,
+    "pass@5": 0.0,
+    "n": 3,
+    "c": 0
+  },
+  "codellama/CodeLlama-7b-Instruct-hf|self_planning|HumanEval/9": {
+    "pass@1": 0.0,
+    "pass@3": 0.0,
+    "pass@5": 0.0,
+    "n": 3,
+    "c": 0
+  },
+  "codellama/CodeLlama-7b-Instruct-hf|self_debugging|HumanEval/9": {
+    "pass@1": 0.0,
+    "pass@3": 0.0,
+    "pass@5": 0.0,
+    "n": 3,
+    "c": 0
+  }
+}

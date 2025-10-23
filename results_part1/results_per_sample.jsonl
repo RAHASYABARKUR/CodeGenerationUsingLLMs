@@ -1,0 +1,240 @@
+{"task_id": "HumanEval/0", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "cot", "passed": true, "error": null}
+{"task_id": "HumanEval/0", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "cot", "passed": true, "error": null}
+{"task_id": "HumanEval/0", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "cot", "passed": true, "error": null}
+{"task_id": "HumanEval/0", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "scot", "passed": true, "error": null}
+{"task_id": "HumanEval/0", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "scot", "passed": false, "error": "Traceback (most recent call last):\n  File \"/home/rbarkur_umass_edu/assignment.py\", line 152, in _worker\n    exec(code, g, g)\n  File \"<string>\", line 1\n    [INST] Solve in numbered steps: (1) restate the goal, (2) identify inputs/outputs, (3) outline the algorithm with edge cases, (4) produce  final Python code.\n           ^^^^^\nSyntaxError: invalid syntax\n"}
+{"task_id": "HumanEval/0", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "scot", "passed": true, "error": null}
+{"task_id": "HumanEval/0", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "self_planning", "passed": true, "error": null}
+{"task_id": "HumanEval/0", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "self_planning", "passed": true, "error": null}
+{"task_id": "HumanEval/0", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "self_planning", "passed": true, "error": null}
+{"task_id": "HumanEval/0", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "self_debugging", "passed": true, "error": null}
+{"task_id": "HumanEval/0", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "self_debugging", "passed": true, "error": null}
+{"task_id": "HumanEval/0", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "self_debugging", "passed": true, "error": null}
+{"task_id": "HumanEval/1", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "cot", "passed": true, "error": null}
+{"task_id": "HumanEval/1", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "cot", "passed": true, "error": null}
+{"task_id": "HumanEval/1", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "cot", "passed": true, "error": null}
+{"task_id": "HumanEval/1", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "scot", "passed": false, "error": "Traceback (most recent call last):\n  File \"/home/rbarkur_umass_edu/assignment.py\", line 152, in _worker\n    exec(code, g, g)\n  File \"<string>\", line 12\n    result.append('') if not stack else result[-1] += char\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nSyntaxError: 'conditional expression' is an illegal expression for augmented assignment\n"}
+{"task_id": "HumanEval/1", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "scot", "passed": false, "error": "Traceback (most recent call last):\n  File \"/home/rbarkur_umass_edu/assignment.py\", line 152, in _worker\n    exec(code, g, g)\n  File \"<string>\", line 4\n    def is_closing(char):\n                         ^\nIndentationError: unindent does not match any outer indentation level\n"}
+{"task_id": "HumanEval/1", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "scot", "passed": true, "error": null}
+{"task_id": "HumanEval/1", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "self_planning", "passed": true, "error": null}
+{"task_id": "HumanEval/1", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "self_planning", "passed": true, "error": null}
+{"task_id": "HumanEval/1", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "self_planning", "passed": true, "error": null}
+{"task_id": "HumanEval/1", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "self_debugging", "passed": true, "error": null}
+{"task_id": "HumanEval/1", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "self_debugging", "passed": true, "error": null}
+{"task_id": "HumanEval/1", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "self_debugging", "passed": true, "error": null}
+{"task_id": "HumanEval/2", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "cot", "passed": true, "error": null}
+{"task_id": "HumanEval/2", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "cot", "passed": true, "error": null}
+{"task_id": "HumanEval/2", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "cot", "passed": true, "error": null}
+{"task_id": "HumanEval/2", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "scot", "passed": true, "error": null}
+{"task_id": "HumanEval/2", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "scot", "passed": true, "error": null}
+{"task_id": "HumanEval/2", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "scot", "passed": true, "error": null}
+{"task_id": "HumanEval/2", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "self_planning", "passed": true, "error": null}
+{"task_id": "HumanEval/2", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "self_planning", "passed": true, "error": null}
+{"task_id": "HumanEval/2", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "self_planning", "passed": true, "error": null}
+{"task_id": "HumanEval/2", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "self_debugging", "passed": true, "error": null}
+{"task_id": "HumanEval/2", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "self_debugging", "passed": true, "error": null}
+{"task_id": "HumanEval/2", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "self_debugging", "passed": true, "error": null}
+{"task_id": "HumanEval/3", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "cot", "passed": true, "error": null}
+{"task_id": "HumanEval/3", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "cot", "passed": true, "error": null}
+{"task_id": "HumanEval/3", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "cot", "passed": true, "error": null}
+{"task_id": "HumanEval/3", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "scot", "passed": true, "error": null}
+{"task_id": "HumanEval/3", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "scot", "passed": true, "error": null}
+{"task_id": "HumanEval/3", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "scot", "passed": true, "error": null}
+{"task_id": "HumanEval/3", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "self_planning", "passed": true, "error": null}
+{"task_id": "HumanEval/3", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "self_planning", "passed": true, "error": null}
+{"task_id": "HumanEval/3", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "self_planning", "passed": true, "error": null}
+{"task_id": "HumanEval/3", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "self_debugging", "passed": true, "error": null}
+{"task_id": "HumanEval/3", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "self_debugging", "passed": true, "error": null}
+{"task_id": "HumanEval/3", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "self_debugging", "passed": true, "error": null}
+{"task_id": "HumanEval/4", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "cot", "passed": true, "error": null}
+{"task_id": "HumanEval/4", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "cot", "passed": true, "error": null}
+{"task_id": "HumanEval/4", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "cot", "passed": true, "error": null}
+{"task_id": "HumanEval/4", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "scot", "passed": true, "error": null}
+{"task_id": "HumanEval/4", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "scot", "passed": true, "error": null}
+{"task_id": "HumanEval/4", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "scot", "passed": true, "error": null}
+{"task_id": "HumanEval/4", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "self_planning", "passed": true, "error": null}
+{"task_id": "HumanEval/4", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "self_planning", "passed": true, "error": null}
+{"task_id": "HumanEval/4", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "self_planning", "passed": true, "error": null}
+{"task_id": "HumanEval/4", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "self_debugging", "passed": true, "error": null}
+{"task_id": "HumanEval/4", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "self_debugging", "passed": true, "error": null}
+{"task_id": "HumanEval/4", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "self_debugging", "passed": true, "error": null}
+{"task_id": "HumanEval/5", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "cot", "passed": true, "error": null}
+{"task_id": "HumanEval/5", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "cot", "passed": false, "error": "Traceback (most recent call last):\n  File \"/home/rbarkur_umass_edu/assignment.py\", line 152, in _worker\n    exec(code, g, g)\n  File \"<string>\", line 15\n    return [numbers[i] for i in range(len(numbers)) if i % 2 else i+1] + [delimeter] * (len(numbers)//2)\n                                                             ^^^^\nSyntaxError: invalid syntax\n"}
+{"task_id": "HumanEval/5", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "cot", "passed": true, "error": null}
+{"task_id": "HumanEval/5", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "scot", "passed": true, "error": null}
+{"task_id": "HumanEval/5", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "scot", "passed": true, "error": null}
+{"task_id": "HumanEval/5", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "scot", "passed": true, "error": null}
+{"task_id": "HumanEval/5", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "self_planning", "passed": true, "error": null}
+{"task_id": "HumanEval/5", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "self_planning", "passed": true, "error": null}
+{"task_id": "HumanEval/5", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "self_planning", "passed": true, "error": null}
+{"task_id": "HumanEval/5", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "self_debugging", "passed": true, "error": null}
+{"task_id": "HumanEval/5", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "self_debugging", "passed": true, "error": null}
+{"task_id": "HumanEval/5", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "self_debugging", "passed": true, "error": null}
+{"task_id": "HumanEval/6", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "cot", "passed": true, "error": null}
+{"task_id": "HumanEval/6", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "cot", "passed": true, "error": null}
+{"task_id": "HumanEval/6", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "cot", "passed": false, "error": "Traceback (most recent call last):\n  File \"/home/rbarkur_umass_edu/assignment.py\", line 152, in _worker\n    exec(code, g, g)\n  File \"<string>\", line 12\n    result\n          ^\nIndentationError: unindent does not match any outer indentation level\n"}
+{"task_id": "HumanEval/6", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "scot", "passed": false, "error": "Traceback (most recent call last):\n  File \"/home/rbarkur_umass_edu/assignment.py\", line 152, in _worker\n    exec(code, g, g)\n  File \"<string>\", line 14\n    result = []\n               ^\nIndentationError: unindent does not match any outer indentation level\n"}
+{"task_id": "HumanEval/6", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "scot", "passed": false, "error": "Traceback (most recent call last):\n  File \"/home/rbarkur_umass_edu/assignment.py\", line 152, in _worker\n    exec(code, g, g)\n  File \"<string>\", line 1\n    [INST] Solve in numbered steps: (1) restate the goal, (2) identify inputs/outputs, (3) outline the algorithm with edge cases, (4) produce  final Python code.\n           ^^^^^\nSyntaxError: invalid syntax\n"}
+{"task_id": "HumanEval/6", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "scot", "passed": false, "error": "Traceback (most recent call last):\n  File \"/home/rbarkur_umass_edu/assignment.py\", line 152, in _worker\n    exec(code, g, g)\n  File \"<string>\", line 1\n    [INST] Solve in numbered steps: (1) restate the goal, (2) identify inputs/outputs, (3) outline the algorithm with edge cases, (4) produce  final Python code.\n           ^^^^^\nSyntaxError: invalid syntax\n"}
+{"task_id": "HumanEval/6", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "self_planning", "passed": true, "error": null}
+{"task_id": "HumanEval/6", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "self_planning", "passed": true, "error": null}
+{"task_id": "HumanEval/6", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "self_planning", "passed": true, "error": null}
+{"task_id": "HumanEval/6", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "self_debugging", "passed": false, "error": "Traceback (most recent call last):\n  File \"/home/rbarkur_umass_edu/assignment.py\", line 152, in _worker\n    exec(code, g, g)\n  File \"<string>\", line 2, in <module>\nImportError: cannot import name 'Stack' from 'collections' (/home/rbarkur_umass_edu/.conda/envs/ml_env/lib/python3.12/collections/__init__.py)\n"}
+{"task_id": "HumanEval/6", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "self_debugging", "passed": true, "error": null}
+{"task_id": "HumanEval/6", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "self_debugging", "passed": true, "error": null}
+{"task_id": "HumanEval/7", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "cot", "passed": true, "error": null}
+{"task_id": "HumanEval/7", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "cot", "passed": true, "error": null}
+{"task_id": "HumanEval/7", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "cot", "passed": true, "error": null}
+{"task_id": "HumanEval/7", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "scot", "passed": true, "error": null}
+{"task_id": "HumanEval/7", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "scot", "passed": true, "error": null}
+{"task_id": "HumanEval/7", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "scot", "passed": true, "error": null}
+{"task_id": "HumanEval/7", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "self_planning", "passed": true, "error": null}
+{"task_id": "HumanEval/7", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "self_planning", "passed": true, "error": null}
+{"task_id": "HumanEval/7", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "self_planning", "passed": true, "error": null}
+{"task_id": "HumanEval/7", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "self_debugging", "passed": true, "error": null}
+{"task_id": "HumanEval/7", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "self_debugging", "passed": true, "error": null}
+{"task_id": "HumanEval/7", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "self_debugging", "passed": true, "error": null}
+{"task_id": "HumanEval/8", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "cot", "passed": true, "error": null}
+{"task_id": "HumanEval/8", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "cot", "passed": true, "error": null}
+{"task_id": "HumanEval/8", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "cot", "passed": true, "error": null}
+{"task_id": "HumanEval/8", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "scot", "passed": true, "error": null}
+{"task_id": "HumanEval/8", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "scot", "passed": true, "error": null}
+{"task_id": "HumanEval/8", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "scot", "passed": true, "error": null}
+{"task_id": "HumanEval/8", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "self_planning", "passed": true, "error": null}
+{"task_id": "HumanEval/8", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "self_planning", "passed": true, "error": null}
+{"task_id": "HumanEval/8", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "self_planning", "passed": true, "error": null}
+{"task_id": "HumanEval/8", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "self_debugging", "passed": true, "error": null}
+{"task_id": "HumanEval/8", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "self_debugging", "passed": true, "error": null}
+{"task_id": "HumanEval/8", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "self_debugging", "passed": true, "error": null}
+{"task_id": "HumanEval/9", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "cot", "passed": true, "error": null}
+{"task_id": "HumanEval/9", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "cot", "passed": true, "error": null}
+{"task_id": "HumanEval/9", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "cot", "passed": true, "error": null}
+{"task_id": "HumanEval/9", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "scot", "passed": true, "error": null}
+{"task_id": "HumanEval/9", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "scot", "passed": true, "error": null}
+{"task_id": "HumanEval/9", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "scot", "passed": true, "error": null}
+{"task_id": "HumanEval/9", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "self_planning", "passed": true, "error": null}
+{"task_id": "HumanEval/9", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "self_planning", "passed": true, "error": null}
+{"task_id": "HumanEval/9", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "self_planning", "passed": true, "error": null}
+{"task_id": "HumanEval/9", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "self_debugging", "passed": true, "error": null}
+{"task_id": "HumanEval/9", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "self_debugging", "passed": true, "error": null}
+{"task_id": "HumanEval/9", "model": "mistralai/Mistral-7B-Instruct-v0.2", "strategy": "self_debugging", "passed": true, "error": null}
+{"task_id": "HumanEval/0", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "cot", "passed": false, "error": "Traceback (most recent call last):\n  File \"/home/rbarkur_umass_edu/assignment.py\", line 152, in _worker\n    exec(code, g, g)\n  File \"<string>\", line 1, in <module>\nNameError: name 'List' is not defined. Did you mean: 'list'?\n"}
+{"task_id": "HumanEval/0", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "cot", "passed": true, "error": null}
+{"task_id": "HumanEval/0", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "cot", "passed": true, "error": null}
+{"task_id": "HumanEval/0", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "scot", "passed": false, "error": "Traceback (most recent call last):\n  File \"/home/rbarkur_umass_edu/assignment.py\", line 152, in _worker\n    exec(code, g, g)\n  File \"<string>\", line 1, in <module>\nNameError: name 'List' is not defined. Did you mean: 'list'?\n"}
+{"task_id": "HumanEval/0", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "scot", "passed": false, "error": "Traceback (most recent call last):\n  File \"/home/rbarkur_umass_edu/assignment.py\", line 152, in _worker\n    exec(code, g, g)\n  File \"<string>\", line 1, in <module>\nNameError: name 'List' is not defined. Did you mean: 'list'?\n"}
+{"task_id": "HumanEval/0", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "scot", "passed": true, "error": null}
+{"task_id": "HumanEval/0", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "self_planning", "passed": false, "error": "Traceback (most recent call last):\n  File \"/home/rbarkur_umass_edu/assignment.py\", line 152, in _worker\n    exec(code, g, g)\n  File \"<string>\", line 1, in <module>\nNameError: name 'List' is not defined. Did you mean: 'list'?\n"}
+{"task_id": "HumanEval/0", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "self_planning", "passed": false, "error": "Traceback (most recent call last):\n  File \"/home/rbarkur_umass_edu/assignment.py\", line 152, in _worker\n    exec(code, g, g)\n  File \"<string>\", line 1\n    [INST] <<SYS>>\n                  ^\nSyntaxError: invalid syntax\n"}
+{"task_id": "HumanEval/0", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "self_planning", "passed": false, "error": "Traceback (most recent call last):\n  File \"/home/rbarkur_umass_edu/assignment.py\", line 152, in _worker\n    exec(code, g, g)\n  File \"<string>\", line 1, in <module>\nNameError: name 'List' is not defined. Did you mean: 'list'?\n"}
+{"task_id": "HumanEval/0", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "self_debugging", "passed": true, "error": null}
+{"task_id": "HumanEval/0", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "self_debugging", "passed": true, "error": null}
+{"task_id": "HumanEval/0", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "self_debugging", "passed": true, "error": null}
+{"task_id": "HumanEval/1", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "cot", "passed": true, "error": null}
+{"task_id": "HumanEval/1", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "cot", "passed": false, "error": "Traceback (most recent call last):\n  File \"/home/rbarkur_umass_edu/assignment.py\", line 152, in _worker\n    exec(code, g, g)\n  File \"<string>\", line 1, in <module>\nNameError: name 'List' is not defined. Did you mean: 'list'?\n"}
+{"task_id": "HumanEval/1", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "cot", "passed": false, "error": "Traceback (most recent call last):\n  File \"/home/rbarkur_umass_edu/assignment.py\", line 152, in _worker\n    exec(code, g, g)\n  File \"<string>\", line 1, in <module>\nNameError: name 'List' is not defined. Did you mean: 'list'?\n"}
+{"task_id": "HumanEval/1", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "scot", "passed": false, "error": "Traceback (most recent call last):\n  File \"/home/rbarkur_umass_edu/assignment.py\", line 152, in _worker\n    exec(code, g, g)\n  File \"<string>\", line 1, in <module>\nNameError: name 'List' is not defined. Did you mean: 'list'?\n"}
+{"task_id": "HumanEval/1", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "scot", "passed": false, "error": "Traceback (most recent call last):\n  File \"/home/rbarkur_umass_edu/assignment.py\", line 152, in _worker\n    exec(code, g, g)\n  File \"<string>\", line 15\n    \"\"\" [/INST]  Sure, here's the solution:\n                           ^\nSyntaxError: unterminated string literal (detected at line 15)\n"}
+{"task_id": "HumanEval/1", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "scot", "passed": false, "error": "Traceback (most recent call last):\n  File \"/home/rbarkur_umass_edu/assignment.py\", line 152, in _worker\n    exec(code, g, g)\n  File \"<string>\", line 15\n    \"\"\" [/INST]  Sure! Here's the step-by-step solution:\n                           ^\nSyntaxError: unterminated string literal (detected at line 15)\n"}
+{"task_id": "HumanEval/1", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "self_planning", "passed": false, "error": "Traceback (most recent call last):\n  File \"/home/rbarkur_umass_edu/assignment.py\", line 152, in _worker\n    exec(code, g, g)\n  File \"<string>\", line 1, in <module>\nNameError: name 'List' is not defined. Did you mean: 'list'?\n"}
+{"task_id": "HumanEval/1", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "self_planning", "passed": false, "error": "Traceback (most recent call last):\n  File \"/home/rbarkur_umass_edu/assignment.py\", line 152, in _worker\n    exec(code, g, g)\n  File \"<string>\", line 1, in <module>\nNameError: name 'List' is not defined. Did you mean: 'list'?\n"}
+{"task_id": "HumanEval/1", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "self_planning", "passed": false, "error": "Traceback (most recent call last):\n  File \"/home/rbarkur_umass_edu/assignment.py\", line 152, in _worker\n    exec(code, g, g)\n  File \"<string>\", line 1, in <module>\nNameError: name 'List' is not defined. Did you mean: 'list'?\n"}
+{"task_id": "HumanEval/1", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "self_debugging", "passed": true, "error": null}
+{"task_id": "HumanEval/1", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "self_debugging", "passed": true, "error": null}
+{"task_id": "HumanEval/1", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "self_debugging", "passed": true, "error": null}
+{"task_id": "HumanEval/2", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "cot", "passed": true, "error": null}
+{"task_id": "HumanEval/2", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "cot", "passed": true, "error": null}
+{"task_id": "HumanEval/2", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "cot", "passed": true, "error": null}
+{"task_id": "HumanEval/2", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "scot", "passed": false, "error": "Traceback (most recent call last):\n  File \"/home/rbarkur_umass_edu/assignment.py\", line 152, in _worker\n    exec(code, g, g)\n  File \"<string>\", line 1\n    [INST] <<SYS>>\n                  ^\nSyntaxError: invalid syntax\n"}
+{"task_id": "HumanEval/2", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "scot", "passed": true, "error": null}
+{"task_id": "HumanEval/2", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "scot", "passed": false, "error": "Traceback (most recent call last):\n  File \"/home/rbarkur_umass_edu/assignment.py\", line 152, in _worker\n    exec(code, g, g)\n  File \"<string>\", line 1\n    [INST] <<SYS>>\n                  ^\nSyntaxError: invalid syntax\n"}
+{"task_id": "HumanEval/2", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "self_planning", "passed": true, "error": null}
+{"task_id": "HumanEval/2", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "self_planning", "passed": true, "error": null}
+{"task_id": "HumanEval/2", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "self_planning", "passed": true, "error": null}
+{"task_id": "HumanEval/2", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "self_debugging", "passed": true, "error": null}
+{"task_id": "HumanEval/2", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "self_debugging", "passed": true, "error": null}
+{"task_id": "HumanEval/2", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "self_debugging", "passed": true, "error": null}
+{"task_id": "HumanEval/3", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "cot", "passed": false, "error": "Traceback (most recent call last):\n  File \"/home/rbarkur_umass_edu/assignment.py\", line 152, in _worker\n    exec(code, g, g)\n  File \"<string>\", line 1, in <module>\nNameError: name 'List' is not defined. Did you mean: 'list'?\n"}
+{"task_id": "HumanEval/3", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "cot", "passed": false, "error": "Traceback (most recent call last):\n  File \"/home/rbarkur_umass_edu/assignment.py\", line 152, in _worker\n    exec(code, g, g)\n  File \"<string>\", line 1, in <module>\nNameError: name 'List' is not defined. Did you mean: 'list'?\n"}
+{"task_id": "HumanEval/3", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "cot", "passed": false, "error": "Traceback (most recent call last):\n  File \"/home/rbarkur_umass_edu/assignment.py\", line 152, in _worker\n    exec(code, g, g)\n  File \"<string>\", line 1, in <module>\nNameError: name 'List' is not defined. Did you mean: 'list'?\n"}
+{"task_id": "HumanEval/3", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "scot", "passed": false, "error": "Traceback (most recent call last):\n  File \"/home/rbarkur_umass_edu/assignment.py\", line 152, in _worker\n    exec(code, g, g)\n  File \"<string>\", line 1, in <module>\nNameError: name 'List' is not defined. Did you mean: 'list'?\n"}
+{"task_id": "HumanEval/3", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "scot", "passed": false, "error": "Traceback (most recent call last):\n  File \"/home/rbarkur_umass_edu/assignment.py\", line 152, in _worker\n    exec(code, g, g)\n  File \"<string>\", line 1, in <module>\nNameError: name 'List' is not defined. Did you mean: 'list'?\n"}
+{"task_id": "HumanEval/3", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "scot", "passed": true, "error": null}
+{"task_id": "HumanEval/3", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "self_planning", "passed": false, "error": "Traceback (most recent call last):\n  File \"/home/rbarkur_umass_edu/assignment.py\", line 152, in _worker\n    exec(code, g, g)\n  File \"<string>\", line 1, in <module>\nNameError: name 'List' is not defined. Did you mean: 'list'?\n"}
+{"task_id": "HumanEval/3", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "self_planning", "passed": false, "error": "Traceback (most recent call last):\n  File \"/home/rbarkur_umass_edu/assignment.py\", line 152, in _worker\n    exec(code, g, g)\n  File \"<string>\", line 1, in <module>\nNameError: name 'List' is not defined. Did you mean: 'list'?\n"}
+{"task_id": "HumanEval/3", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "self_planning", "passed": true, "error": null}
+{"task_id": "HumanEval/3", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "self_debugging", "passed": true, "error": null}
+{"task_id": "HumanEval/3", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "self_debugging", "passed": true, "error": null}
+{"task_id": "HumanEval/3", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "self_debugging", "passed": true, "error": null}
+{"task_id": "HumanEval/4", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "cot", "passed": true, "error": null}
+{"task_id": "HumanEval/4", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "cot", "passed": true, "error": null}
+{"task_id": "HumanEval/4", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "cot", "passed": false, "error": "Traceback (most recent call last):\n  File \"/home/rbarkur_umass_edu/assignment.py\", line 152, in _worker\n    exec(code, g, g)\n  File \"<string>\", line 1, in <module>\nNameError: name 'List' is not defined. Did you mean: 'list'?\n"}
+{"task_id": "HumanEval/4", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "scot", "passed": true, "error": null}
+{"task_id": "HumanEval/4", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "scot", "passed": true, "error": null}
+{"task_id": "HumanEval/4", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "scot", "passed": true, "error": null}
+{"task_id": "HumanEval/4", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "self_planning", "passed": true, "error": null}
+{"task_id": "HumanEval/4", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "self_planning", "passed": true, "error": null}
+{"task_id": "HumanEval/4", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "self_planning", "passed": true, "error": null}
+{"task_id": "HumanEval/4", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "self_debugging", "passed": true, "error": null}
+{"task_id": "HumanEval/4", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "self_debugging", "passed": true, "error": null}
+{"task_id": "HumanEval/4", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "self_debugging", "passed": true, "error": null}
+{"task_id": "HumanEval/5", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "cot", "passed": false, "error": "Traceback (most recent call last):\n  File \"/home/rbarkur_umass_edu/assignment.py\", line 152, in _worker\n    exec(code, g, g)\n  File \"<string>\", line 1, in <module>\nNameError: name 'List' is not defined. Did you mean: 'list'?\n"}
+{"task_id": "HumanEval/5", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "cot", "passed": true, "error": null}
+{"task_id": "HumanEval/5", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "cot", "passed": false, "error": "Traceback (most recent call last):\n  File \"/home/rbarkur_umass_edu/assignment.py\", line 152, in _worker\n    exec(code, g, g)\n  File \"<string>\", line 1, in <module>\nNameError: name 'List' is not defined. Did you mean: 'list'?\n"}
+{"task_id": "HumanEval/5", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "scot", "passed": false, "error": "Traceback (most recent call last):\n  File \"/home/rbarkur_umass_edu/assignment.py\", line 152, in _worker\n    exec(code, g, g)\n  File \"<string>\", line 1, in <module>\nNameError: name 'List' is not defined. Did you mean: 'list'?\n"}
+{"task_id": "HumanEval/5", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "scot", "passed": true, "error": null}
+{"task_id": "HumanEval/5", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "scot", "passed": false, "error": "Traceback (most recent call last):\n  File \"/home/rbarkur_umass_edu/assignment.py\", line 152, in _worker\n    exec(code, g, g)\n  File \"<string>\", line 1, in <module>\nNameError: name 'List' is not defined. Did you mean: 'list'?\n"}
+{"task_id": "HumanEval/5", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "self_planning", "passed": false, "error": "Traceback (most recent call last):\n  File \"/home/rbarkur_umass_edu/assignment.py\", line 152, in _worker\n    exec(code, g, g)\n  File \"<string>\", line 1\n    [INST] <<SYS>>\n                  ^\nSyntaxError: invalid syntax\n"}
+{"task_id": "HumanEval/5", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "self_planning", "passed": false, "error": "Traceback (most recent call last):\n  File \"/home/rbarkur_umass_edu/assignment.py\", line 152, in _worker\n    exec(code, g, g)\n  File \"<string>\", line 1, in <module>\nNameError: name 'List' is not defined. Did you mean: 'list'?\n"}
+{"task_id": "HumanEval/5", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "self_planning", "passed": false, "error": "Traceback (most recent call last):\n  File \"/home/rbarkur_umass_edu/assignment.py\", line 152, in _worker\n    exec(code, g, g)\n  File \"<string>\", line 1, in <module>\nNameError: name 'List' is not defined. Did you mean: 'list'?\n"}
+{"task_id": "HumanEval/5", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "self_debugging", "passed": false, "error": "Traceback (most recent call last):\n  File \"/home/rbarkur_umass_edu/assignment.py\", line 152, in _worker\n    exec(code, g, g)\n  File \"<string>\", line 1, in <module>\nNameError: name 'List' is not defined. Did you mean: 'list'?\n"}
+{"task_id": "HumanEval/5", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "self_debugging", "passed": true, "error": null}
+{"task_id": "HumanEval/5", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "self_debugging", "passed": true, "error": null}
+{"task_id": "HumanEval/6", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "cot", "passed": false, "error": "Traceback (most recent call last):\n  File \"/home/rbarkur_umass_edu/assignment.py\", line 152, in _worker\n    exec(code, g, g)\n  File \"<string>\", line 1, in <module>\nNameError: name 'List' is not defined. Did you mean: 'list'?\n"}
+{"task_id": "HumanEval/6", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "cot", "passed": false, "error": "Traceback (most recent call last):\n  File \"/home/rbarkur_umass_edu/assignment.py\", line 152, in _worker\n    exec(code, g, g)\n  File \"<string>\", line 1, in <module>\nNameError: name 'List' is not defined. Did you mean: 'list'?\n"}
+{"task_id": "HumanEval/6", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "cot", "passed": false, "error": "Traceback (most recent call last):\n  File \"/home/rbarkur_umass_edu/assignment.py\", line 152, in _worker\n    exec(code, g, g)\n  File \"<string>\", line 1, in <module>\nNameError: name 'List' is not defined. Did you mean: 'list'?\n"}
+{"task_id": "HumanEval/6", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "scot", "passed": false, "error": "Traceback (most recent call last):\n  File \"/home/rbarkur_umass_edu/assignment.py\", line 152, in _worker\n    exec(code, g, g)\n  File \"<string>\", line 1, in <module>\nNameError: name 'List' is not defined. Did you mean: 'list'?\n"}
+{"task_id": "HumanEval/6", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "scot", "passed": false, "error": "Traceback (most recent call last):\n  File \"/home/rbarkur_umass_edu/assignment.py\", line 152, in _worker\n    exec(code, g, g)\n  File \"<string>\", line 1, in <module>\nNameError: name 'List' is not defined. Did you mean: 'list'?\n"}
+{"task_id": "HumanEval/6", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "scot", "passed": false, "error": "Traceback (most recent call last):\n  File \"/home/rbarkur_umass_edu/assignment.py\", line 152, in _worker\n    exec(code, g, g)\n  File \"<string>\", line 15\n    \"\"\" [/INST]  Sure, here's the step-by-step guide to solving the problem:\n                           ^\nSyntaxError: unterminated string literal (detected at line 15)\n"}
+{"task_id": "HumanEval/6", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "self_planning", "passed": true, "error": null}
+{"task_id": "HumanEval/6", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "self_planning", "passed": false, "error": "Traceback (most recent call last):\n  File \"/home/rbarkur_umass_edu/assignment.py\", line 152, in _worker\n    exec(code, g, g)\n  File \"<string>\", line 1, in <module>\nNameError: name 'List' is not defined. Did you mean: 'list'?\n"}
+{"task_id": "HumanEval/6", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "self_planning", "passed": false, "error": "Traceback (most recent call last):\n  File \"/home/rbarkur_umass_edu/assignment.py\", line 152, in _worker\n    exec(code, g, g)\n  File \"<string>\", line 1, in <module>\nNameError: name 'List' is not defined. Did you mean: 'list'?\n"}
+{"task_id": "HumanEval/6", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "self_debugging", "passed": true, "error": null}
+{"task_id": "HumanEval/6", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "self_debugging", "passed": true, "error": null}
+{"task_id": "HumanEval/6", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "self_debugging", "passed": true, "error": null}
+{"task_id": "HumanEval/7", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "cot", "passed": false, "error": "Traceback (most recent call last):\n  File \"/home/rbarkur_umass_edu/assignment.py\", line 152, in _worker\n    exec(code, g, g)\n  File \"<string>\", line 1, in <module>\nNameError: name 'List' is not defined. Did you mean: 'list'?\n"}
+{"task_id": "HumanEval/7", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "cot", "passed": true, "error": null}
+{"task_id": "HumanEval/7", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "cot", "passed": false, "error": "Traceback (most recent call last):\n  File \"/home/rbarkur_umass_edu/assignment.py\", line 152, in _worker\n    exec(code, g, g)\n  File \"<string>\", line 1, in <module>\nNameError: name 'List' is not defined. Did you mean: 'list'?\n"}
+{"task_id": "HumanEval/7", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "scot", "passed": false, "error": "Traceback (most recent call last):\n  File \"/home/rbarkur_umass_edu/assignment.py\", line 152, in _worker\n    exec(code, g, g)\n  File \"<string>\", line 1, in <module>\nNameError: name 'List' is not defined. Did you mean: 'list'?\n"}
+{"task_id": "HumanEval/7", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "scot", "passed": false, "error": "Traceback (most recent call last):\n  File \"/home/rbarkur_umass_edu/assignment.py\", line 152, in _worker\n    exec(code, g, g)\n  File \"<string>\", line 1, in <module>\nNameError: name 'List' is not defined. Did you mean: 'list'?\n"}
+{"task_id": "HumanEval/7", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "scot", "passed": false, "error": "Traceback (most recent call last):\n  File \"/home/rbarkur_umass_edu/assignment.py\", line 152, in _worker\n    exec(code, g, g)\n  File \"<string>\", line 1, in <module>\nNameError: name 'List' is not defined. Did you mean: 'list'?\n"}
+{"task_id": "HumanEval/7", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "self_planning", "passed": false, "error": "Traceback (most recent call last):\n  File \"/home/rbarkur_umass_edu/assignment.py\", line 152, in _worker\n    exec(code, g, g)\n  File \"<string>\", line 1\n    [INST] <<SYS>>\n                  ^\nSyntaxError: invalid syntax\n"}
+{"task_id": "HumanEval/7", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "self_planning", "passed": false, "error": "Traceback (most recent call last):\n  File \"/home/rbarkur_umass_edu/assignment.py\", line 152, in _worker\n    exec(code, g, g)\n  File \"<string>\", line 1\n    [INST] <<SYS>>\n                  ^\nSyntaxError: invalid syntax\n"}
+{"task_id": "HumanEval/7", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "self_planning", "passed": false, "error": "Traceback (most recent call last):\n  File \"/home/rbarkur_umass_edu/assignment.py\", line 152, in _worker\n    exec(code, g, g)\n  File \"<string>\", line 1\n    [INST] <<SYS>>\n                  ^\nSyntaxError: invalid syntax\n"}
+{"task_id": "HumanEval/7", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "self_debugging", "passed": true, "error": null}
+{"task_id": "HumanEval/7", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "self_debugging", "passed": true, "error": null}
+{"task_id": "HumanEval/7", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "self_debugging", "passed": true, "error": null}
+{"task_id": "HumanEval/8", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "cot", "passed": true, "error": null}
+{"task_id": "HumanEval/8", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "cot", "passed": false, "error": "Traceback (most recent call last):\n  File \"/home/rbarkur_umass_edu/assignment.py\", line 152, in _worker\n    exec(code, g, g)\n  File \"<string>\", line 1, in <module>\nNameError: name 'List' is not defined. Did you mean: 'list'?\n"}
+{"task_id": "HumanEval/8", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "cot", "passed": false, "error": "Traceback (most recent call last):\n  File \"/home/rbarkur_umass_edu/assignment.py\", line 152, in _worker\n    exec(code, g, g)\n  File \"<string>\", line 1, in <module>\nNameError: name 'List' is not defined. Did you mean: 'list'?\n"}
+{"task_id": "HumanEval/8", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "scot", "passed": false, "error": "Traceback (most recent call last):\n  File \"/home/rbarkur_umass_edu/assignment.py\", line 152, in _worker\n    exec(code, g, g)\n  File \"<string>\", line 1, in <module>\nNameError: name 'List' is not defined. Did you mean: 'list'?\n"}
+{"task_id": "HumanEval/8", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "scot", "passed": true, "error": null}
+{"task_id": "HumanEval/8", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "scot", "passed": true, "error": null}
+{"task_id": "HumanEval/8", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "self_planning", "passed": true, "error": null}
+{"task_id": "HumanEval/8", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "self_planning", "passed": true, "error": null}
+{"task_id": "HumanEval/8", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "self_planning", "passed": true, "error": null}
+{"task_id": "HumanEval/8", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "self_debugging", "passed": true, "error": null}
+{"task_id": "HumanEval/8", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "self_debugging", "passed": true, "error": null}
+{"task_id": "HumanEval/8", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "self_debugging", "passed": true, "error": null}
+{"task_id": "HumanEval/9", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "cot", "passed": true, "error": null}
+{"task_id": "HumanEval/9", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "cot", "passed": true, "error": null}
+{"task_id": "HumanEval/9", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "cot", "passed": true, "error": null}
+{"task_id": "HumanEval/9", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "scot", "passed": true, "error": null}
+{"task_id": "HumanEval/9", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "scot", "passed": false, "error": "Traceback (most recent call last):\n  File \"/home/rbarkur_umass_edu/assignment.py\", line 152, in _worker\n    exec(code, g, g)\n  File \"<string>\", line 1, in <module>\nNameError: name 'List' is not defined. Did you mean: 'list'?\n"}
+{"task_id": "HumanEval/9", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "scot", "passed": false, "error": "Traceback (most recent call last):\n  File \"/home/rbarkur_umass_edu/assignment.py\", line 152, in _worker\n    exec(code, g, g)\n  File \"<string>\", line 1, in <module>\nNameError: name 'List' is not defined. Did you mean: 'list'?\n"}
+{"task_id": "HumanEval/9", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "self_planning", "passed": false, "error": "Traceback (most recent call last):\n  File \"/home/rbarkur_umass_edu/assignment.py\", line 152, in _worker\n    exec(code, g, g)\n  File \"<string>\", line 1, in <module>\nNameError: name 'List' is not defined. Did you mean: 'list'?\n"}
+{"task_id": "HumanEval/9", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "self_planning", "passed": false, "error": "Traceback (most recent call last):\n  File \"/home/rbarkur_umass_edu/assignment.py\", line 152, in _worker\n    exec(code, g, g)\n  File \"<string>\", line 1, in <module>\nNameError: name 'List' is not defined. Did you mean: 'list'?\n"}
+{"task_id": "HumanEval/9", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "self_planning", "passed": true, "error": null}
+{"task_id": "HumanEval/9", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "self_debugging", "passed": false, "error": "Traceback (most recent call last):\n  File \"/home/rbarkur_umass_edu/assignment.py\", line 152, in _worker\n    exec(code, g, g)\n  File \"<string>\", line 1, in <module>\nNameError: name 'List' is not defined. Did you mean: 'list'?\n"}
+{"task_id": "HumanEval/9", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "self_debugging", "passed": false, "error": "Traceback (most recent call last):\n  File \"/home/rbarkur_umass_edu/assignment.py\", line 152, in _worker\n    exec(code, g, g)\n  File \"<string>\", line 1\n    [INST] <<SYS>>\n                  ^\nSyntaxError: invalid syntax\n"}
+{"task_id": "HumanEval/9", "model": "codellama/CodeLlama-7b-Instruct-hf", "strategy": "self_debugging", "passed": true, "error": null}

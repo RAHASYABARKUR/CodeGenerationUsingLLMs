@@ -1,0 +1,9 @@
+model,strategy,tasks,pass@1,pass@3,pass@5
+mistralai/Mistral-7B-Instruct-v0.2,cot,10,0.7333333333333334,0.9,0.9
+mistralai/Mistral-7B-Instruct-v0.2,scot,10,0.5333333333333334,0.7,0.7
+mistralai/Mistral-7B-Instruct-v0.2,self_planning,10,0.7666666666666667,0.8,0.8
+mistralai/Mistral-7B-Instruct-v0.2,self_debugging,10,0.9,0.9,0.9
+codellama/CodeLlama-7b-Instruct-hf,cot,10,0.13333333333333336,0.2,0.2
+codellama/CodeLlama-7b-Instruct-hf,scot,10,0.1,0.1,0.1
+codellama/CodeLlama-7b-Instruct-hf,self_planning,10,0.1,0.1,0.1
+codellama/CodeLlama-7b-Instruct-hf,self_debugging,10,0.1,0.1,0.1

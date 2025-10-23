@@ -1,0 +1,50 @@
+{
+  "mistralai/Mistral-7B-Instruct-v0.2|cot": {
+    "pass@1": 0.9333333333333333,
+    "pass@3": 1.0,
+    "pass@5": 1.0,
+    "tasks": 10
+  },
+  "mistralai/Mistral-7B-Instruct-v0.2|scot": {
+    "pass@1": 0.8,
+    "pass@3": 0.9,
+    "pass@5": 0.9,
+    "tasks": 10
+  },
+  "mistralai/Mistral-7B-Instruct-v0.2|self_planning": {
+    "pass@1": 1.0,
+    "pass@3": 1.0,
+    "pass@5": 1.0,
+    "tasks": 10
+  },
+  "mistralai/Mistral-7B-Instruct-v0.2|self_debugging": {
+    "pass@1": 0.9666666666666668,
+    "pass@3": 1.0,
+    "pass@5": 1.0,
+    "tasks": 10
+  },
+  "codellama/CodeLlama-7b-Instruct-hf|cot": {
+    "pass@1": 0.4666666666666668,
+    "pass@3": 0.8,
+    "pass@5": 0.8,
+    "tasks": 10
+  },
+  "codellama/CodeLlama-7b-Instruct-hf|scot": {
+    "pass@1": 0.33333333333333337,
+    "pass@3": 0.7,
+    "pass@5": 0.7,
+    "tasks": 10
+  },
+  "codellama/CodeLlama-7b-Instruct-hf|self_planning": {
+    "pass@1": 0.4,
+    "pass@3": 0.6,
+    "pass@5": 0.6,
+    "tasks": 10
+  },
+  "codellama/CodeLlama-7b-Instruct-hf|self_debugging": {
+    "pass@1": 0.9000000000000001,
+    "pass@3": 1.0,
+    "pass@5": 1.0,
+    "tasks": 10
+  }
+}
